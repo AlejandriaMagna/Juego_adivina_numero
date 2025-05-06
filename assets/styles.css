@@ -1,0 +1,59 @@
+/* Fondo de la página */
+body {
+    background-color: #d4f7d4; /* Verde claro */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente divertida */
+    color: #333; /* Color de texto */
+    text-align: center; /* Centrar el contenido */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título o encabezados */
+h1, h2, h3 {
+    color: #ff6347; /* Rojo tomate */
+    text-shadow: 2px 2px #ffa07a; /* Sombra para un efecto divertido */
+}
+
+/* Estilo para el botón principal */
+button {
+    background-color: #ffcc00; /* Amarillo brillante */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    transition: transform 0.2s, background-color 0.2s; /* Animación al pasar el mouse */
+}
+
+/* Efecto hover para los botones */
+button:hover {
+    background-color: #ffa500; /* Naranja brillante */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+
+/* Botón de reinicio */
+button#botonReset {
+    background-color: #ff6f61; /* Rojo coral */
+    color: #fff; /* Texto blanco */
+}
+
+/* Campo de entrada */
+input[type="text"] {
+    border: 2px solid #ffa500; /* Borde naranja */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin: 10px 0;
+}
+
+/* Mensaje de resultado */
+#resultado {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #4caf50; /* Verde oscuro */
+}
